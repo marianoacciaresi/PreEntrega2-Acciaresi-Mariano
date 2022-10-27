@@ -14,11 +14,12 @@ Para el comportamiento responsivo se utilizó grid y flexbox
 
 ## Animaciones
 
-Las animaciones se encuentran en los archivos:
+Las animaciones/transiciones se encuentran en los archivos:
 
 -   `index.html`
 -   `contacto.html`
 -   `quienes.html`
+-   `galería.html`
 
 ## Entrega
 
