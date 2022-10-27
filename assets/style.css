@@ -201,6 +201,7 @@ li a:visited {
 
   .imagenEntrenadores {
     display: flex;
+    flex-direction: column;
   }
 
   .imagenEntrenadoresSRC {
@@ -209,11 +210,9 @@ li a:visited {
   }
 
   .teEsperamos {
-    width: 25vw;
-    height: 6vh;
+    width: 125px;
+    height: 60px;
     background-color: #F59E3A;
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
     font-size: medium;
     text-align: center;    
     font-family: cursive;
@@ -372,15 +371,14 @@ li a:visited {
   }
 
   .teEsperamos {
-    width: 12vw;
-    height: 10vh;
+    width: 220px;
+    height: 100px;
     background-color: #F59E3A;
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
     font-size: xx-large;
     text-align: center;
-    margin-left: 120vh;
+    /* margin-left: 120vh; */
     font-family: cursive;
+    -ms-flex-align: center;
   }
 
 } /* Fin Desktop */
